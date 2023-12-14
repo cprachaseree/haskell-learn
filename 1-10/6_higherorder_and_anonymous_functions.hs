@@ -5,7 +5,7 @@ exHigherOrderFn f x = f x
 add1 :: Int -> Int
 add1 x = x + 1
 
--- Anonymouys function
+-- Anonymous function
 add1New :: Int -> Int
 add1New = (\x -> x + 1)
 
